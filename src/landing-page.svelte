@@ -51,8 +51,8 @@
     <div>
       <img src="https://oliver-tailwind.netlify.app/assets/images/home_side.png" alt="">
     </div>
-    <div>
-      <h1 class="text-black-500 py-12 px-10 text-5xl font-bold text-center">Explore About Our Awesome Features
+    <div class="py-40  items-center justify-center">
+      <h1 class="text-black-500 py-12 px-10 text-5xl  font-bold text-center">Explore About Our Awesome Features
       </h1>
       <p class=" text-slate-500 text-xl text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eum modi, adipisci facilis.</p>
     </div>
@@ -92,7 +92,7 @@
            <span class=" text-xl text-zinc-500   py-4 font-bold ">
              Create custom landing pages with Landik that converts more visitors than any website. With lots of unique blocks, you can easily build a page without coding</span>
              <div class="flex flex-row items-center justify-center mt-8">
-              <button class="flex flex-row  bg-emerald-500 hover:bg-emerald-700 items-center text-white font-bold py-2 px-4 rounded-full">
+              <button class="flex flex-row   bg-emerald-500 hover:bg-emerald-700 items-center text-white font-bold py-2 px-4 rounded-full">
                 Explore
               </button>
             </div>
