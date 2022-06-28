@@ -65,7 +65,7 @@
 
     <div class="flex flex-row ">
       <div>
-          <h2 class="text-black-500 text-xl font-bold py-12 text-left"> PERFECT DESIGN</h2>
+          <h2 class="text-black-500 text-2xl  py-12 text-left"> PERFECT DESIGN</h2>
           <h1 class=" text-black-500 py-12 px-10 font-bold text-4xl text-center">  It’s Everything You’ll Ever Need.</h1>
           <p class=" text-slate-500 text-left text-xl "> Create custom landing pages with Landik that converts more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p>
           
