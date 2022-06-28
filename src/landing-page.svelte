@@ -82,7 +82,7 @@
     </div>
     <div>
       <div>
-        <div class="flex py-16 ">
+        <div class="flex py-16">
        <div>
          <img src="https://oliver-tailwind.netlify.app/assets/images/features-two.png" alt="">
        </div>
