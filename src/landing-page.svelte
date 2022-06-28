@@ -71,7 +71,7 @@
           
          
           <div class="flex flex-row items-center justify-center mt-8">
-            <button class=" bg-emerald-500 hover:bg-emerald-700  text-white font-bold py-2 px-4 rounded-full">
+            <button class=" bg-emerald-500 hover:bg-emerald-700  text-white font-bold py-4 px-10 rounded-full">
               Explore
             </button>
           </div>
@@ -86,13 +86,13 @@
        <div>
          <img src="https://oliver-tailwind.netlify.app/assets/images/features-two.png" alt="">
        </div>
-       <div>
+       <div class="mt-5">
          <h3 class="text-black-500 text-xl font-bold py-12 text-left">USER INTERFACE</h3>
-         <h1 class="text-black-500 text-4xl font-bold text-center">Unlimited Features Awaiting For You.</h1>
-           <span class=" text-xl text-zinc-500   py-4 font-bold ">
+         <h1 class="text-black-500 text-4xl font-bold py-4 text-center">Unlimited Features Awaiting For You.</h1>
+           <span class=" mt-7 text-zinc-500   py-4 text-2xl ">
              Create custom landing pages with Landik that converts more visitors than any website. With lots of unique blocks, you can easily build a page without coding</span>
              <div class="flex flex-row items-center justify-center mt-8">
-              <button class="flex flex-row   bg-emerald-500 hover:bg-emerald-700 items-center text-white font-bold py-2 px-4 rounded-full">
+              <button class="flex flex-row   bg-emerald-500 hover:bg-emerald-700 items-center text-white font-bold py-4 px-10 rounded-full">
                 Explore
               </button>
             </div>
