@@ -1,4 +1,5 @@
-<nav class="flex sticky top-0 bg-gray-100 shadow-lg w-full z-10 items-center justify-between px-24 py-8 max-w-screen-xl mx-auto">
+<nav class="flex sticky top-0 bg-gray-100 shadow-lg w-full z-10 items-center justify-between px-24 py-8 ">
+  <!-- max-w-screen-xl mx-auto -->
   <p  class="text-4xl font-bold tracking-wide">Veldron</p>
 
   <ul class="flex items-center font-bold text-2xl space-x-8">
@@ -10,7 +11,8 @@
 
   </ul>    
 </nav>
-<div class="container max-w-lg w-full">
+<div class=" w-full">
+  <!-- container max-w-lg -->
 
 
     
@@ -208,7 +210,7 @@
       <p class=" text-slate-500 py-10  text-xl text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eum modi, adipisci facilis.
       </p>
       <div class=" space-x-12 ">
-        <div class="flex flex-row">
+        <div class="flex flex-row items-between justify-between">
           <div class="max-w-sm rounded overflow-hidden shadow-lg">
             <div class="px-20 py-20">
               <div class="font-bold text-3xl mb-2">Basic</div>
@@ -255,33 +257,33 @@
     <div class=" bg-emerald-500  rounded-lg ">
       <h1 class="font-bold text-white py-20 text-5xl text-center ">Contact Our Sales Team </h1>
       
-        <p class=" text-white py-6  text-xl text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eum modi, adipisci facilis.</p>
-        <div class=" flex flex-row items-center justify-center ">
-
+        <p class=" text-white  text-xl text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eum modi, adipisci facilis.</p>
     <!-- registration form -->
+
+        <div class=" flex flex-row items-center mt-10 justify-center">
           <form action="" class=" bg-white  rounded-lg outline-double outline-stone-400  ">
             <div class="mt-4">
               <div class="flex flex-row space-x-10">
                 <div>
                   <label class="block" for="Name">Name<label>
-                          <input type="text" placeholder="Name"
+                          <input type="text" placeholder="Your Name"
                               class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600">
               </div>
               <div class="mt-4">
                   <label class="block" for="email">Email<label>
-                          <input type="text" placeholder="Email"
+                          <input type="text" placeholder="Your Email"
                               class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600">
               </div>
 
               </div>
               <div class="mt-4">
                   <label class="block">Subject<label>
-                          <input type="subject" placeholder="Subject"
+                          <input type="subject" placeholder="Your Subject"
                               class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600">
               </div>
               <div class="mt-4">
                 <label class="block">Message<label>
-                        <input type="message" placeholder="message"
+                        <input type="message" placeholder="Your Message"
                             class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600">
             </div>
               </div>
