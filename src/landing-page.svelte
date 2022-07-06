@@ -1,16 +1,16 @@
 <div class="font-serif">
   <nav class="flex sticky top-0 bg-gray-100 shadow-lg w-full z-10 items-center justify-between px-24 py-8 ">
     <!-- max-w-screen-xl mx-auto -->
-    <p  class="text-4xl font-bold tracking-wide">Veldron</p>
+    <p  class="text-4xl font-bold tracking-wide mt-3">Veldron</p>
   <div>
 
   </div>
     <ul class="flex  items-center font-bold text-2xl  md:flex-row space-x-8">
-      <li class="hover:text-purple-500" >Home</li>
-      <li class="hover:text-purple-500">Feature</li>
-      <li class="hover:text-purple-500">Client</li>
-      <li class="hover:text-purple-500">Price</li>
-      <li class="hover:text-purple-500">Contact</li>
+      <li class="hover:text-purple-500 hover:underline hover:underline-offset-8 cursor-pointer" >Home</li>
+      <li class="hover:text-purple-500 hover:underline hover:underline-offset-8 cursor-pointer">Feature</li>
+      <li class="hover:text-purple-500 hover:underline hover:underline-offset-8 cursor-pointer">Client</li>
+      <li class="hover:text-purple-500 hover:underline hover:underline-offset-8 cursor-pointer">Price</li>
+      <li class="hover:text-purple-500 hover:underline hover:underline-offset-8 cursor-pointer">Contact</li>
     </ul>
   </nav>
   <div class=" w-full">
@@ -151,7 +151,7 @@
         </p>
         <!-- Rating cards -->
         <div class="flex flex-col py-8   md:flex-row items-center justify-center space-x-16 ">
-          <div class="max-w-sm rounded ml-16 overflow-hidden shadow-lg">
+          <div class="max-w-sm rounded ml-16 md:mt-8 overflow-hidden shadow-lg">
             <div class="  border-2 p-12">
               <div class="font-bold text-xl mb-2"> 4.92/5</div>
               <p class="text-gray-700 text-base"> Average ratings</p>
@@ -329,7 +329,7 @@
 
           <div class="flex ">
             <div class="flex flex-col md:flex-row items-center justify-center  space-x-16  ">
-              <div class=" ml-48">
+              <div class=" ml-48 md:ml-10">
                 <h1 class="font-bold text-4xl ">Veldron</h1>
                 <p class="text-2xl text-slate-500">2022 © Oliver. Design by ThemeBoss.</p>
                 <p class="font-bold text-3xl">Follow Us</p>
