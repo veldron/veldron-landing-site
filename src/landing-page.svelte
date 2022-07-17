@@ -1,4 +1,6 @@
 <script>
+  import Clients_section from './Clients_section.svelte';
+
   import Features_section from './Features_section.svelte'
 
   import Navigation_sections from './Navigation_sections.svelte'
@@ -22,7 +24,7 @@
       </h1> -->
         <Features_section />
 
-  
+  <Clients_section />
 
     <div class="flex flex-col pl-10 md:flex-row ">
       <div>
