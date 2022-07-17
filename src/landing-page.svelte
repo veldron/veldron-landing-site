@@ -16,33 +16,13 @@
     <!-- <div>
         <img src="https://oliver-tailwind.netlify.app/assets/images/home_side.png" alt="">
       </div> -->
-    <div class="items-center justify-center px-8 mt-2">
       <!-- <h1
         class="px-10 py-12 text-4xl font-bold text-center text-black-500 md:text-5xl">
         Explore About Our Awesome Features
       </h1> -->
         <Features_section />
 
-    </div>
-    <div
-      class="flex flex-col justify-center py-5 m-auto mt-5 md:flex-row md:space-x-56">
-      <img
-        class=""
-        src="https://oliver-tailwind.netlify.app/assets/images/clients/1.png"
-        alt="" />
-      <img
-        class=""
-        src="https://oliver-tailwind.netlify.app/assets/images/clients/2.png"
-        alt="" />
-      <img
-        class=""
-        src="https://oliver-tailwind.netlify.app/assets/images/clients/3.png"
-        alt="" />
-      <img
-        class=""
-        src="https://oliver-tailwind.netlify.app/assets/images/clients/4.png"
-        alt="" />
-    </div>
+  
 
     <div class="flex flex-col pl-10 md:flex-row ">
       <div>
