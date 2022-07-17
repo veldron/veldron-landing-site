@@ -1,5 +1,9 @@
 <script>
-  import Clients_section from './Clients_section.svelte';
+  import Footer_section from './Footer_section.svelte'
+
+  import Main_features_section from './Main_features_section.svelte'
+
+  import Clients_section from './Clients_section.svelte'
 
   import Features_section from './Features_section.svelte'
 
@@ -18,70 +22,17 @@
     <!-- <div>
         <img src="https://oliver-tailwind.netlify.app/assets/images/home_side.png" alt="">
       </div> -->
-      <!-- <h1
+    <!-- <h1
         class="px-10 py-12 text-4xl font-bold text-center text-black-500 md:text-5xl">
         Explore About Our Awesome Features
       </h1> -->
-        <Features_section />
 
-  <Clients_section />
+    <Main_features_section />
 
-    <div class="flex flex-col pl-10 md:flex-row ">
-      <div>
-        <h2 class="py-12 text-2xl text-left text-black-500">PERFECT DESIGN</h2>
-        <h1 class="px-10 py-12 text-4xl font-bold text-center text-black-500">
-          It’s Everything You’ll Ever Need.
-        </h1>
-        <p class="text-xl text-left text-slate-500">
-          Create custom landing pages with Landik that converts more visitors
-          than any website. With lots of unique blocks, you can easily build a
-          page without coding.
-        </p>
+    <Features_section />
 
-        <div class="flex flex-row items-center justify-center mt-8">
-          <button
-            class="px-10 py-4 font-bold text-white rounded-full bg-primary-dark hover:bg-primary">
-            Explore
-          </button>
-        </div>
-      </div>
-      <div>
-        <img
-          src="https://oliver-tailwind.netlify.app/assets/images/features-one.png"
-          alt="" />
-      </div>
-    </div>
-    <div>
-      <div>
-        <div class="flex flex-col py-16 md:flex-row">
-          <div class="">
-            <img
-              src="https://oliver-tailwind.netlify.app/assets/images/features-two.png"
-              alt="" />
-          </div>
-          <div class="p-10 mt-5">
-            <h3 class="py-12 text-xl font-bold text-left text-black-500">
-              USER INTERFACE
-            </h3>
-            <h1
-              class="py-4 text-3xl font-bold text-center text-black-500 md:text-4xl">
-              Unlimited Features Awaiting For You.
-            </h1>
-            <span class="py-4 text-xl mt-7 text-zinc-500 md:text-2xl">
-              Create custom landing pages with Landik that converts more
-              visitors than any website. With lots of unique blocks, you can
-              easily build a page without coding
-            </span>
-            <div class="flex flex-row items-center justify-center mt-8">
-              <button
-                class="flex flex-row items-center px-10 py-4 font-bold text-white rounded-full bg-primary-dark hover:bg-primary">
-                Explore
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Clients_section />
+
     <div class="p-12 rounded-lg bg-primary-dark">
       <h1 class="text-6xl text-center text-white md:text-7xl ">What We Do</h1>
       <p class="text-xl text-center text-white">
@@ -408,87 +359,8 @@
       </div>
     </div>
 
-    <div class="flex ">
-      <div
-        class="flex flex-col items-center justify-center space-x-16 md:flex-row ">
-        <div class="ml-48 md:ml-10">
-          <h1 class="text-4xl font-bold ">Veldron</h1>
-          <p class="text-2xl text-slate-500">
-            2022 © Oliver. Design by ThemeBoss.
-          </p>
-          <p class="text-3xl font-bold">Follow Us</p>
-        </div>
-        <div>
-          <h1 class="py-5 mt-5 text-3xl font-bold">Our_Product</h1>
-          <div class="flex flex-col">
-            <span
-              class="py-2 text-2xl text-center text-slate-500 text-black-500">
-              Getbootstrap
-            </span>
-            <span class="py-2 text-xl text-center text-slate-500">
-              Wordpress
-            </span>
-            <span class="py-2 text-xl text-center text-slate-500">
-              Shopify
-            </span>
-            <span class="py-2 text-xl text-center text-slate-500">React</span>
-          </div>
-        </div>
-        <div>
-          <h1 class="py-3 text-3xl font-bold">Company</h1>
-          <div class="flex flex-col">
-            <span class="py-2 text-xl text-center text-slate-500">About</span>
-            <span
-              class="py-2 text-xl text-center text-slate-500 text-black-500">
-              Terms
-            </span>
-            <span
-              class="py-2 text-xl text-center text-slate-500 text-black-500">
-              Privacy_Policy
-            </span>
-            <span
-              class="py-2 text-xl text-center text-slate-500 text-black-500">
-              Careers
-            </span>
-          </div>
-        </div>
-        <div>
-          <h1 class="py-3 -mt-4 text-3xl font-bold">Services</h1>
-          <div class="flex flex-col">
-            <span
-              class="py-2 text-xl text-center text-slate-500 text-black-500">
-              Documentation
-            </span>
-            <span class="text-xl text-center text-slate-500 text-black-500">
-              Design
-            </span>
-            <span class="text-xl text-center text-slate-500 text-black-500">
-              Themes
-            </span>
-            <span class="text-xl text-center text-slate-500 text-black-500">
-              Illustrations
-            </span>
-            <span class="text-xl text-center text-slate-500 text-black-500">
-              UI Kit
-            </span>
-          </div>
-        </div>
-        <div class="text-center">
-          <h1 class="mt-2 text-3xl font-bold md:-mt-20 md:py-10 ">More</h1>
-          <div class="flex flex-col ">
-            <span
-              class="py-2 text-xl text-center text-slate-500 text-black-500">
-              Documentation
-            </span>
-            <span class="text-xl text-center text-slate-500 text-black-500">
-              License
-            </span>
-            <span class="text-xl text-center text-slate-500 text-black-500">
-              Changelog
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Footer_section />
+
+
   </div>
 </div>
