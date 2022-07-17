@@ -1,95 +1,15 @@
+<script>
+  import Navigation_sections from './Navigation_sections.svelte'
+
+  import Hero_section from './Hero_section.svelte'
+</script>
+
 <div class="font-serif">
-  <nav
-    class="flex flex-col md:flex-row sticky top-0 bg-gray-100 shadow-lg w-full
-    z-10 items-center justify-between px-24 py-8 ">
-    <!-- max-w-screen-xl mx-auto -->
-    <p class="text-4xl font-bold tracking-wide mt-3">Veldron</p>
-    <div />
-    <ul
-      class="flex mt-10 md:mt-0 items-center justify-center font-bold text-2xl
-      flex-col md:flex-row md:space-x-8">
-      <li
-        class="hover:text-primary-dark hover:underline hover:underline-offset-8
-        cursor-pointer">
-        Home
-      </li>
-      <li
-        class="hover:text-primary-dark hover:underline hover:underline-offset-8
-        cursor-pointer">
-        Feature
-      </li>
-      <li
-        class="hover:text-primary-dark hover:underline hover:underline-offset-8
-        cursor-pointer">
-        Client
-      </li>
-      <li
-        class="hover:text-primary-dark hover:underline hover:underline-offset-8
-        cursor-pointer">
-        Price
-      </li>
-      <li
-        class="hover:text-primary-dark hover:underline hover:underline-offset-8
-        cursor-pointer">
-        Contact
-      </li>
-    </ul>
-  </nav>
+  <Navigation_sections />
   <div class=" w-full">
     <!-- container max-w-lg -->
     <!-- hero page -->
-    <div class="bg-gray-300">
-      <div class=" flex flex-col items-center py-32 px-52">
-        <h1
-          class="text-black-500 md:text-6xl text-5xl font-bold mt-16 text-center">
-          Get your
-          <span class="text-primary-dark">MVP</span>
-          to
-          <span class="text-primary-dark text-bold">Market</span>
-          in Record Time ⚡⚡
-        </h1>
-        <span class="text-center text-slate-700 text-xl mt-2">
-          Entrepreneurs and startups spend months and years to deliver their
-          Minimum Viable Product (MVP) to the market. They have no reliable and
-          fast consultancy to get their MVP ready. We provide you with the best
-          and fastest consultancy to get your MVP ready in record time for a
-          fraction of equity in your startup. We believe in you as much as you
-          believe in your startup.
-        </span>
-        <div>
-          <div class=" ">
-            <div
-              class="container flex flex-row justify-center mt-20 items-center
-              space-x-5">
-              <!-- <button
-                class=" bg-primary-dark hover:bg-primary items-center
-                text-white font-bold md:py-3 md:px-14 py-2 px-4 rounded-full">
-                Get Started
-              </button> -->
-
-              <div class="relative">
-                <div class="absolute top-4 left-3">
-                  <i
-                    class="fa fa-search text-gray-400 z-20 hover:text-gray-500" />
-                </div>
-                <input
-                  type="text"
-                  class="h-14 w-96 pl-10 pr-20 rounded-full shadow-xl
-                  border-gray-900 z-0 focus:shadow focus:outline-none"
-                  placeholder="Email......." />
-                <div class="absolute top-2 right-2">
-                  <button
-                    class=" bg-primary-dark hover:bg-primary text-white
-                    font-bold py-2 px-5 rounded-full">
-                    Contact me
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Hero_section />
 
     <!-- <div>
         <img src="https://oliver-tailwind.netlify.app/assets/images/home_side.png" alt="">
@@ -102,7 +22,9 @@
       </h1> -->
       <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <div class="max-w-screen-md mb-8 lg:mb-16 justify-center items-center flex flex-col m-auto">
+          <div
+            class="max-w-screen-md mb-8 lg:mb-16 justify-center items-center
+            flex flex-col m-auto">
             <h2
               class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900
               dark:text-white">
@@ -295,7 +217,10 @@
               </div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">Speed</h3>
               <p class="text-gray-500 dark:text-gray-400">
-               We believe, an MVP delayed is an MVP lost. If you don't reach market in time, you probably never will. That's why we built Veldron to focus and prioritise speed delivery of MVP to our clients.
+                We believe, an MVP delayed is an MVP lost. If you don't reach
+                market in time, you probably never will. That's why we built
+                Veldron to focus and prioritise speed delivery of MVP to our
+                clients.
               </p>
             </div>
             <div>
@@ -358,7 +283,9 @@
       </section>
 
     </div>
-    <div class="flex flex-col m-auto md:flex-row mt-5  justify-center py-5 md:space-x-56">
+    <div
+      class="flex flex-col m-auto md:flex-row mt-5 justify-center py-5
+      md:space-x-56">
       <img
         class=""
         src="https://oliver-tailwind.netlify.app/assets/images/clients/1.png"
