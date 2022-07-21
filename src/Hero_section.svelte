@@ -9,12 +9,7 @@
           in Record Time ⚡⚡
         </h1>
         <span class="text-center text-slate-700 text-xl mt-2">
-          Entrepreneurs and startups spend months and years to deliver their
-          Minimum Viable Product (MVP) to the market. They have no reliable and
-          fast consultancy to get their MVP ready. We provide you with the best
-          and fastest consultancy to get your MVP ready in record time for a
-          fraction of equity in your startup. We believe in you as much as you
-          believe in your startup.
+          Veldron is a fast and reliable consultancy to get your MVP ready within record time at a fraction of equity. We believe in you as much as you believe in your startup.
         </span>
         <div>
           <div class=" ">
