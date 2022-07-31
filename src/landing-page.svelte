@@ -46,14 +46,14 @@
     <Main_features_section />
     <Features_section />
     <Clients_section />
-    <Feature_2_section></Feature_2_section>
-    <Feacture_3_section></Feacture_3_section>
-    <Feacture_4_section></Feacture_4_section>
-    <Feature_5_section></Feature_5_section>
+    <!-- <Feature_2_section></Feature_2_section> -->
+    <!-- <Feacture_3_section></Feacture_3_section> -->
+    <!-- <Feacture_4_section></Feacture_4_section> -->
+    <!-- <Feature_5_section></Feature_5_section> -->
     <!-- <Feature_6_section></Feature_6_section> -->
     <!-- <Choose_now_cards></Choose_now_cards> -->
     <Contact_form></Contact_form>
-    <Contact_source></Contact_source>
+    <!-- <Contact_source></Contact_source> -->
     <Footer_section />
 
 

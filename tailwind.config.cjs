@@ -4,12 +4,18 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: ["./index.html", './src/**/*.{svelte,js,ts}'], // for unused CSS
   theme: {
+    fontFamily:{
+      "body": ["SplineSans"]
+
+    },
     extend: {
       // backgroundImage: {
       //   'hero-pattern': "url('/images/background.jpg')",
       // },
       fontFamily: {
-        sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+        sans: ['SplineSans', ...defaultTheme.fontFamily.sans],
+        "SplineSans":["SplineSans"],
+        "Zodiak":["Zodiak"],
       },
       container: {
         center: true,
