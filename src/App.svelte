@@ -3,5 +3,5 @@
   import TailwindCss from "./tailwind.svelte";
 </script>
 
-<TailwindCss />
+<!-- <TailwindCss /> -->
 <LandingPage />

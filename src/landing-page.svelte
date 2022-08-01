@@ -1,31 +1,24 @@
 <script>
-  import Contact_source from './Contact_source.svelte';
 
   import Contact_form from './Contact_form.svelte';
 
-  import Choose_now_cards from './Choose_now_cards.svelte';
 
-  import Feature_6_section from './Feature_6_section.svelte';
 
-  import Feature_5_section from './Feature_5_section.svelte';
 
-  import Feacture_4_section from './Feacture_4_section.svelte';
 
-  import Feacture_3_section from './Feacture_3_section.svelte';
 
-  import Feature_2_section from './Feature_2_section.svelte';
 
-  import Footer_section from './Footer_section.svelte'
+  import Footer_section from './Footer_section.svelte';
 
-  import Main_features_section from './Main_features_section.svelte'
+  import Main_features_section from './Main_features_section.svelte';
 
-  import Clients_section from './Clients_section.svelte'
+  import Clients_section from './Clients_section.svelte';
 
-  import Features_section from './Features_section.svelte'
+  import Features_section from './Features_section.svelte';
 
-  import Navigation_sections from './Navigation_sections.svelte'
+  import Navigation_sections from './Navigation_sections.svelte';
 
-  import Hero_section from './Hero_section.svelte'
+  import Hero_section from './Hero_section.svelte';
 </script>
 
 <div class="font-serif">
