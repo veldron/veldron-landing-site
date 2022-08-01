@@ -19,7 +19,9 @@
       </p>
 
       <div class="flex flex-row items-center justify-center mt-8">
-        <button
+        <a
+          target="_blank"
+          href="https://cal.com/insanebaba/short-meet"
           class="px-10 floating flex flex-row gap-3 py-4 font-bold text-white rounded-full bg-primary-dark
           hover:bg-primary"
         >
@@ -37,7 +39,7 @@
               d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
             />
           </svg>
-        </button>
+        </a>
       </div>
     </div>
     <div class="w-full basis-1/2">
@@ -47,7 +49,7 @@
 
   <div class="flex flex-col md:py-16 md:flex-row">
     <div class="basis-1/2">
-      <div use:viewport on:enterViewport={() => animate_team = true}>
+      <div use:viewport on:enterViewport={() => (animate_team = true)}>
         {#if animate_team}
           <embed
             src="assets/images/team_collaboration.svg"
