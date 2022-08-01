@@ -7,12 +7,12 @@
   @font-face {
     font-family: "SplineSans";
     /* font-weight: 800; */
-    src: url("../public/assets/fonts/SplineSans-Variable.ttf");
+    src: url("/assets/fonts/SplineSans-Variable.ttf");
   }
   @font-face {
     font-family: "Zodiak";
     /* font-weight: 800; */
-    src: url("../public/assets/fonts/Zodiak-Variable.ttf");
+    src: url("/assets/fonts/Zodiak-Variable.ttf");
   }
 
 </style>

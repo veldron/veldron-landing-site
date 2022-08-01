@@ -1,28 +1,28 @@
-<div class="flex flex-col items-center justify-center gap-12">
-  <span class=" font-black text-4xl">
-    Our Clients
-  </span>
+<div class="flex flex-col items-center justify-center gap-8 mt-8">
+  <span class=" font-black text-4xl"> Our Clients </span>
   <div
-    class=" flex flex-col gap-y-10 md:flex-row items-center justify-center m-auto md:gap-x-10">
-    <a href="/">
+    class=" flex flex-col gap-y-10 md:flex-row items-center justify-center m-auto md:gap-x-10"
+  >
+    <a target="_blank" href="https://facilityspot.nl">
       <img
-        src="https://oliver-tailwind.netlify.app/assets/images/clients/1.png"
-        alt="" />
+        class="w-44"
+        src="/assets/images/facility_spot.svg"
+        alt="Facility Spot"
+      />
     </a>
-    <a href="/">
+    <a target="_blank" href="https://web.foodstepsapp.com/">
       <img
-        src="https://oliver-tailwind.netlify.app/assets/images/clients/2.png"
-        alt="" />
+        class="w-44"
+        src="/assets/images/food_steps.png"
+        alt="Food Steps - made with Love"
+      />
     </a>
-    <a href="/">
+    <a target="_blank" href="https://wezoo.com/">
       <img
-        src="https://oliver-tailwind.netlify.app/assets/images/clients/3.png"
-        alt="" />
-    </a>
-    <a href="/">
-      <img
-        src="https://oliver-tailwind.netlify.app/assets/images/clients/4.png"
-        alt="" />
+        class="w-44"
+        src="/assets/images/wezoo_logo.svg"
+        alt="Wezoo"
+      />
     </a>
   </div>
 </div>

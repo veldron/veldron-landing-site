@@ -1,14 +1,14 @@
 <div class="items-center justify-center px-8 mt-2">
 
-  <section class="bg-white dark:bg-gray-900">
+  <section class="bg-white  ">
     <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-16 lg:px-6">
       <div
         class="flex flex-col items-center justify-center max-w-screen-md m-auto mb-8 lg:mb-16">
         <h2
-          class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+          class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900  ">
           Designed for startups, like yours
         </h2>
-        <p class="text-center text-gray-500 sm:text-xl dark:text-gray-400">
+        <p class="text-center text-gray-500 sm:text-xl  ">
           <span>
             Here at Veldron we focus on startup markets where we can use
             technology, innovation and marketing to unlock full potential
@@ -19,7 +19,7 @@
         class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
         <div>
           <div
-            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12 dark:bg-primary-dark">
+            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12  ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-6 h-6"
@@ -35,8 +35,8 @@
             </svg>
 
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Product</h3>
-          <p class="text-gray-500 dark:text-gray-400">
+          <h3 class="mb-2 text-xl font-bold  ">Product</h3>
+          <p class="text-gray-500  ">
             Plan it, get it, launch it. Collaborate seamlessly with all the
             organization and hit your marketing goals every month with our
             marketing plan.
@@ -44,7 +44,7 @@
         </div>
         <div>
           <div
-            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12 dark:bg-primary-dark">
+            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12  ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-6 h-6"
@@ -60,8 +60,8 @@
                 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Affordable</h3>
-          <p class="text-gray-500 dark:text-gray-400">
+          <h3 class="mb-2 text-xl font-bold  ">Affordable</h3>
+          <p class="text-gray-500  ">
             With Veldron, you don't have to pay to development, programming, or
             product design. You don't pay for developer management or product
             owner. We take care of those things. You only pay for the
@@ -71,7 +71,7 @@
         </div>
         <div>
           <div
-            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12 dark:bg-primary-dark">
+            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12  ">
             <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none">
               <path
                 d="M12.8345 3.16228C12.8911 3.11941 12.9406 3.06928 12.9821
@@ -151,10 +151,10 @@
             </svg>
 
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">
+          <h3 class="mb-2 text-xl font-bold  ">
             Continous Collaboration
           </h3>
-          <p class="text-gray-500 dark:text-gray-400">
+          <p class="text-gray-500  ">
             We collaborate with our clients to ensure that we deliver the MVP
             that they need. We have regular meetings, deployments, and code
             reviews to ensure that we are always on the same page with our
@@ -163,7 +163,7 @@
         </div>
         <div>
           <div
-            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12 dark:bg-primary-dark">
+            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12  ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-6 h-6"
@@ -177,8 +177,8 @@
                 d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Speed</h3>
-          <p class="text-gray-500 dark:text-gray-400">
+          <h3 class="mb-2 text-xl font-bold  ">Speed</h3>
+          <p class="text-gray-500  ">
             We believe, an MVP delayed is an MVP lost. If you don't reach market
             in time, you probably never will. That's why we built Veldron to
             focus and prioritise speed delivery of MVP to our clients.
@@ -186,9 +186,9 @@
         </div>
         <div>
           <div
-            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12 dark:bg-primary-dark">
+            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12  ">
             <svg
-              class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+              class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6  "
               fill="white"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
@@ -198,19 +198,19 @@
                 01-2 2H4a2 2 0 01-2-2v-4z" />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">
+          <h3 class="mb-2 text-xl font-bold  ">
             Enterprise Design
           </h3>
-          <p class="text-gray-500 dark:text-gray-400">
+          <p class="text-gray-500  ">
             Craft beautiful, delightful experiences for both marketing and
             product with real cross-company collaboration.
           </p>
         </div>
         <div>
           <div
-            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12 dark:bg-primary-dark">
+            class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-primary lg:h-12 lg:w-12  ">
             <svg
-              class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+              class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6  "
               fill="white"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
@@ -228,8 +228,8 @@
                 clip-rule="evenodd" />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Operations</h3>
-          <p class="text-gray-500 dark:text-gray-400">
+          <h3 class="mb-2 text-xl font-bold  ">Operations</h3>
+          <p class="text-gray-500  ">
             Keep your company’s lights on with customizable, iterative, and
             structured workflows built for all efficient teams and individual.
           </p>
