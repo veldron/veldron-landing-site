@@ -1,5 +1,5 @@
 <script>
-  import credits from '/public/assets/data/credits.json';
+  import credits from "/public/assets/data/credits.json";
   export let open = false;
 </script>
 
@@ -11,9 +11,7 @@
     <a href="https://veldron.com/" class="hover:underline">Veldron</a>
     . All Rights Reserved.
   </span>
-  <ul
-    class="flex flex-wrap items-center mt-3 text-sm text-gray-500 sm:mt-0"
-  >
+  <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 sm:mt-0">
     <li>
       <a href="/#" class="mr-4 hover:underline md:mr-6 ">About</a>
     </li>
@@ -21,10 +19,11 @@
       <a href="/#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
     </li>
     <li>
-      <a href="/#" class="mr-4 hover:underline md:mr-6">Licensing</a>
-    </li>
-    <li>
-      <a href="/#" class="hover:underline">Contact</a>
+      <a
+        target="_blank"
+        href="https://cal.com/insanebaba/short-meet"
+        class="hover:underline">Contact</a
+      >
     </li>
   </ul>
 </footer>
@@ -52,11 +51,12 @@
           {@html credit}
         </p>
       {/each}
-
     </div>
-    <div  class="flex items-center justify-center w-full p-12 flex-ro">
-
-      <button class="p-4 m-auto text-white border rounded-lg  bg-primary-light hover:bg-primary-dark" on:click={() => (open = false)}>close</button>
+    <div class="flex items-center justify-center w-full p-12 flex-ro">
+      <button
+        class="p-4 m-auto text-white border rounded-lg  bg-primary-light hover:bg-primary-dark"
+        on:click={() => (open = false)}>close</button
+      >
     </div>
   </div>
 </div>

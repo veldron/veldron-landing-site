@@ -5,7 +5,7 @@
 <nav
   class="z-10 flex flex-col items-center justify-center w-full px-24 py-8 bg-gray-100 shadow-lg md:flex-row ">
   <!-- max-w-screen-xl mx-auto -->
-  <a href="/" class="sticky top-0 mt-3 text-4xl font-bold tracking-wide">
+  <a href="/" class=" font-Zodiak sticky top-0 mt-3 text-4xl font-bold tracking-wide">
     Veldron
   </a>
   <!-- <ul
