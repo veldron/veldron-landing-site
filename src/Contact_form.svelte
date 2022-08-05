@@ -25,6 +25,15 @@
     }),
     onSubmit: async (values) => {
       const dataToSend = JSON.stringify(values);
+      // clear form
+      form.set({
+        firstName: "",
+        lastName: "",
+        email: "",
+        subject: "",
+        siteName: "https://veldron.com",
+        description: "",
+      });
       let headersList = {
         Accept: "*/*",
         "Content-Type": "application/json",
@@ -41,6 +50,7 @@
 
       let data = await response.text();
       console.log(data);
+      alert("Thank you for contacting, We will get back to you soon");
     },
   });
 </script>
