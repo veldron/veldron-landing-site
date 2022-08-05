@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: "Zodiak";
-  /* font-weight: 800; */
-  src: url("../fonts/Zodiak-Variable.ttf");
+  font-weight: 900;
+  src: url("../fonts/Neco-Variable.ttf");
 }
 
 .floating {
