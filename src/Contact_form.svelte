@@ -188,7 +188,7 @@
             </div>
           </div>
         </div>
-        <div class="md:flex md:items-center md:flex-row md:justify-center ">
+        <div class=" flex flex-wrap text-center  justify-center ">
           <div
             class="rounded bg-primary hover:bg-primary-light hover:border-primary"
           >
