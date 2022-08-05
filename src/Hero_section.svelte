@@ -31,7 +31,7 @@
       <div>
         <div class="">
           <div
-            class="container flex flex-row items-center justify-center mt-20 space-x-5"
+            class="container flex flex-row items-center justify-center mt-3 md:mt-20 space-x-5"
           >
             <!-- <button
                   class="items-center px-4 py-2 font-bold text-white rounded-full  bg-primary-dark hover:bg-primary md:py-3 md:px-14">
