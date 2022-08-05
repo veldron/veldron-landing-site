@@ -10,7 +10,14 @@
     © 2022
     <a href="https://veldron.com/" class="hover:underline">Veldron</a>
     . All Rights Reserved.
-  </span>
+  </span >
+    <div class="text-xs text-gray-400">
+      <ul>
+        <li>
+          KvK Number: 81714610
+        </li>
+      </ul>
+    </div>
   <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 sm:mt-0">
     <li>
       <a href="/#" class="mr-4 hover:underline md:mr-6 ">About</a>
