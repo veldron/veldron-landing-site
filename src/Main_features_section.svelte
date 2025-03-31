@@ -4,18 +4,18 @@
 </script>
 
 <div class="flex flex-col max-w-screen-2xl m-auto w-full">
-  <div class="flex flex-col md:flex-row items-start justify-start ">
+  <div class="flex flex-col md:flex-row items-start justify-start">
     <div class="basis-3/4">
-      <!-- <h2 class="py-12 text-2xl m-auto text-center text-black-500">PERFECT DESIGN</h2> -->
       <h1
-        class="px-10 py-16 md:mt-20 text-4xl font-bold capitalize text-center
-        text-black-500"
+        class="px-10 pt-16 pb-8 md:mt-20 text-4xl font-bold capitalize text-center text-black-500"
       >
-        Bring your dream, get your digital Product
+        Expert-Driven Speed for Complex Technology Implementation
       </h1>
-      <p class="text-xl px-10 m-auto text-center text-slate-500">
-        You have a product in mind. You know how it should look, feel and work.
-        You're welcome to manifest it to reality with us.
+      <p class="text-xl px-10 m-auto text-center text-slate-500 max-w-3xl">
+        Our deep expertise across modern tech stacks – including AI, LLMs, data
+        platforms, and the newest frameworks – allows us to accelerate the
+        development and management of intricate ICT solutions tailored for
+        established businesses.
       </p>
 
       <div class="flex flex-row items-center justify-center mt-8">
@@ -60,21 +60,17 @@
       </div>
     </div>
     <div class=" basis-3/4 p-10 mt-5">
-      <h3 class="py-12 text-xl font-bold text-left text-black-500">
-        Team Collaboration
-      </h3>
       <h1
-        class="py-4 text-3xl font-bold text-center text-black-500 md:text-4xl"
+        class="px-10 pt-16 pb-8 md:mt-20 text-4xl font-bold capitalize text-center text-black-500"
       >
-        Our teams help you in every phase of your startup
+        Mastering the Full Spectrum of Modern ICT
       </h1>
-      <span class="py-4 text-xl mt-7 text-zinc-500 md:text-2xl text-justify">
-        Our Teams have diverse skills and experience in the field of product
-        development. We have a team of experts who can help you in every phase
-        of your startup, from ideation to product launch, from pitch decks to
-        marketing strategies. No stone is left unturned in making your product a
-        success.
-      </span>
+      <p class="text-xl px-10 m-auto text-center text-slate-500 max-w-3xl">
+        From robust backend architectures and seamless frontend experiences to
+        advanced data science, AI integration, and LLM fine-tuning using the
+        latest frameworks – our expert teams rapidly deliver complex,
+        enterprise-grade solutions.
+      </p>
       <div class="flex flex-row items-center justify-center mt-8">
         <a
           target="_blank"

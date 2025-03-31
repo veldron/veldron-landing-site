@@ -1,58 +1,31 @@
 <script>
-  import SvelteSeo from "svelte-seo";
   import Feature_1 from "./lib/image_components/feature_1.svelte";
 </script>
 
-<SvelteSeo
-  title="Veldron - Equity to MVP"
-  description="Veldron is a fast and reliable consultancy to get your MVP ready
-  within record time at a fraction of equity. We believe in you as much as you
-  believe in your startup."
-/>
-<div class="flex flex-col items-center justify-center  md:flex-row">
+<svelte:head>
+  <title>Managed IT Services - Fast & Reliable | Veldron</title>
+  <meta name="description" content="Veldron is a fast and reliable consultancy to get your MVP ready within record time at a fraction of equity. We believe in you as much as you believe in your startup." />
+</svelte:head><div class="flex flex-col items-center justify-center  md:flex-row">
   <div class="md:basis-3/4">
     <div
       class="flex flex-col items-center m-auto  max-w-7xl md:p-8 lg:px-32"
     >
       <h1 class="p-8 text-5xl font-bold tracking-wide text-center text-black-500 md:text-6xl font-Zodiak">
-        Get your
-        <span class="p-2 leading-4 text-primary-dark ">MVP</span>
+        Lightning-Fast , 
+        <span class="p-2 leading-4 text-primary-dark ">ICT Solutions</span>
         <br/>
-        to
-        <span class="p-2 leading-4 text-primary-dark text-bold">Market</span>
-        <br/>
-        in Record Time ⚡⚡
+        Managed with Ease. ⚡⚡
       </h1>
       <span class="p-4 mt-2 text-xl text-center text-slate-700 ">
-        Veldron is a fast and reliable consultancy to get your MVP ready within
-        record time at a fraction of equity. We believe in you as much as you
-        believe in your startup.
+        Leverage our deep bench of highly skilled experts across diverse domains like React and Java to ensure swift project delivery and effortless management.
       </span>
       <div>
         <div class="">
           <div
             class="container flex flex-row items-center justify-center mt-3 md:mt-20 space-x-5"
           >
-            <!-- <button
-                  class="items-center px-4 py-2 font-bold text-white rounded-full  bg-primary-dark hover:bg-primary md:py-3 md:px-14">
-                  Get Started
-                </button> -->
             <div class="flex flex-col gap-4 md:flex-row">
-              <!-- <div class="relative">
-                <div class="absolute top-4 left-3">
-                  <i class="z-20 text-gray-400 fa fa-search hover:text-gray-500" />
-                </div>
-                <input
-                  type="text"
-                  class="z-0 pl-10 pr-20 border-gray-900 rounded-full shadow-xl h-14 w-96 focus:shadow focus:outline-none"
-                  placeholder="Email......." />
-                <div class="absolute top-2 right-2">
-                  <button
-                    class="px-5 py-2 font-bold text-white rounded-full  bg-primary-dark hover:bg-primary">
-                    Contact me
-                  </button>
-                </div>
-              </div> -->
+              
               <a
                 target="_blank"
                 href="https://cal.com/insanebaba/short-meet"
