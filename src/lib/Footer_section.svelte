@@ -7,8 +7,8 @@
   class="flex flex-col items-center justify-center w-full max-w-screen-xl p-4 m-auto bg-white rounded-lg shadow md:flex-row md:items-center md:justify-between md:p-6 "
 >
   <span class="text-sm text-gray-500 sm:text-center ">
-    © 2022
-    <a href="https://veldron.com/" class="hover:underline">Veldron</a>
+    © 2025
+    <a href="https://veldron.com/" class="hover:underline">Veldron AI Consultancy</a>
     . All Rights Reserved.
   </span >
     <div class="text-xs text-gray-400">

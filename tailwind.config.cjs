@@ -5,15 +5,16 @@ module.exports = {
   content: ["./index.html", './src/**/*.{svelte,js,ts}'], // for unused CSS
   theme: {
     fontFamily:{
-      "body": ["SplineSans"]
-
+      "body": ["Inter", "sans-serif"]
     },
     extend: {
       // backgroundImage: {
       //   'hero-pattern': "url('/images/background.jpg')",
       // },
       fontFamily: {
-        sans: ['SplineSans', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter', 'Poppins', ...defaultTheme.fontFamily.sans],
+        "inter": ["Inter", "sans-serif"],
+        "poppins": ["Poppins", "sans-serif"],
         "SplineSans":["SplineSans"],
         "Zodiak":["Zodiak"],
       },

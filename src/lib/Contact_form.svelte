@@ -55,13 +55,12 @@
   });
 </script>
 
-<div class="mt-10">
-  <h1 class="text-4xl font-black text-center ">Contact Us</h1>
-
-  <!-- <p class="text-xl font-black text-center ">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eum
-    modi, adipisci facilis.
-  </p> -->
+<div class="mt-10" id="contact">
+  <h1 class="text-4xl font-black text-center ">Get Your AI Agent in 30 Days</h1>
+  <p class="text-xl text-center text-gray-600 mt-4 max-w-2xl mx-auto">
+    Tell us about your business challenges and we'll design a custom AI agent solution. 
+    Free consultation with implementation roadmap and ROI projections.
+  </p>
   <!-- registration form -->
 
   <form on:submit={handleSubmit}>
