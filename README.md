@@ -1,48 +1,86 @@
-# Svelte + Vite
+# Veldron Landing Site
 
-This template should help get you started developing with Svelte in Vite.
+A modern landing site built with SvelteKit and Tailwind CSS.
 
-## Recommended IDE Setup
+## 🚀 Project Setup
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+This project has been migrated from vanilla Svelte to SvelteKit with static site generation.
 
-## Need an official Svelte framework?
+### Tech Stack
+- **SvelteKit** - Full-stack web framework
+- **@sveltejs/adapter-static** - Static site generation
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** - Build tool and dev server
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+## 📦 Installation
 
-## Technical considerations
-
-**Why use this over SvelteKit?**
-
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
-  `vite dev` and `vite build` wouldn't work in a SvelteKit environment, for example.
-
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
-
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `checkJs` in the JS template?**
-
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+```bash
+bun install
 ```
+
+## 🛠️ Development
+
+Start the development server:
+
+```bash
+bun run dev
+```
+
+Your site will be available at `http://localhost:5173/`
+
+## 🏗️ Building
+
+Create a production build:
+
+```bash
+bun run build
+```
+
+The static site will be generated in the `build/` directory.
+
+## 👀 Preview
+
+Preview the production build locally:
+
+```bash
+bun run preview
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── routes/           # SvelteKit routes
+│   ├── +layout.svelte   # Global layout
+│   ├── +page.svelte     # Homepage
+│   └── +page.js         # Page configuration
+├── lib/              # Reusable components
+├── assets/           # Static assets (CSS, JS, images)
+└── app.html          # App template
+
+static/               # Static files served as-is
+```
+
+## 🔧 Configuration
+
+- **svelte.config.js** - SvelteKit configuration with static adapter
+- **vite.config.js** - Vite build configuration
+- **tailwind.config.cjs** - Tailwind CSS configuration
+- **postcss.config.cjs** - PostCSS configuration
+
+## 📤 Deployment
+
+Since this uses the static adapter, you can deploy the `build/` directory to any static hosting service like:
+
+- GitHub Pages
+- Netlify
+- Vercel
+- AWS S3
+- Any web server
+
+## ✨ Features
+
+- **Static Site Generation** - Pre-rendered for optimal performance
+- **Responsive Design** - Mobile-first approach with Tailwind CSS
+- **Component Architecture** - Modular and reusable Svelte components
+- **Modern Development** - Hot module replacement and fast builds

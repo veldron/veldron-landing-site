@@ -1,0 +1,107 @@
+{
+  ".svelte-kit/generated/client-optimized/app.js": {
+    "file": "_app/immutable/entry/app.DHLv4gI2.js",
+    "name": "entry/app",
+    "src": ".svelte-kit/generated/client-optimized/app.js",
+    "isEntry": true,
+    "imports": [
+      "_57sTgZHh.js",
+      "_IHki7fMi.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/client-optimized/nodes/0.js",
+      ".svelte-kit/generated/client-optimized/nodes/1.js",
+      ".svelte-kit/generated/client-optimized/nodes/2.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.js": {
+    "file": "_app/immutable/nodes/0.BvZwwv5O.js",
+    "name": "nodes/0",
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_57sTgZHh.js",
+      "_IHki7fMi.js"
+    ],
+    "css": [
+      "_app/immutable/assets/0.PqWLkgXU.css",
+      "_app/immutable/assets/feature_1.D_nZktVh.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/SplineSans-Variable.hyQjagY8.ttf",
+      "_app/immutable/assets/Neco-Variable.C6vPX9Wu.ttf"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/1.js": {
+    "file": "_app/immutable/nodes/1.BuXYXLu2.js",
+    "name": "nodes/1",
+    "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_57sTgZHh.js",
+      "_IHki7fMi.js",
+      "_DOaUOAZz.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.js": {
+    "file": "_app/immutable/nodes/2.aq6gMAiv.js",
+    "name": "nodes/2",
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_57sTgZHh.js",
+      "_IHki7fMi.js",
+      "_b0BHz6G6.js"
+    ],
+    "css": [
+      "_app/immutable/assets/feature_1.D_nZktVh.css"
+    ]
+  },
+  "_!~{006}~.js": {
+    "file": "_app/immutable/assets/feature_1.D_nZktVh.css",
+    "src": "_!~{006}~.js"
+  },
+  "_57sTgZHh.js": {
+    "file": "_app/immutable/chunks/57sTgZHh.js",
+    "name": "Component"
+  },
+  "_DOaUOAZz.js": {
+    "file": "_app/immutable/chunks/DOaUOAZz.js",
+    "name": "entry",
+    "imports": [
+      "_57sTgZHh.js",
+      "_b0BHz6G6.js"
+    ]
+  },
+  "_IHki7fMi.js": {
+    "file": "_app/immutable/chunks/IHki7fMi.js",
+    "name": "index"
+  },
+  "_b0BHz6G6.js": {
+    "file": "_app/immutable/chunks/b0BHz6G6.js",
+    "name": "index",
+    "imports": [
+      "_57sTgZHh.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
+    "file": "_app/immutable/entry/start.DRal87od.js",
+    "name": "entry/start",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_DOaUOAZz.js"
+    ]
+  },
+  "src/assets/fonts/Neco-Variable.ttf": {
+    "file": "_app/immutable/assets/Neco-Variable.C6vPX9Wu.ttf",
+    "src": "src/assets/fonts/Neco-Variable.ttf"
+  },
+  "src/assets/fonts/SplineSans-Variable.ttf": {
+    "file": "_app/immutable/assets/SplineSans-Variable.hyQjagY8.ttf",
+    "src": "src/assets/fonts/SplineSans-Variable.ttf"
+  }
+}
